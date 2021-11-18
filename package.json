@@ -1,0 +1,29 @@
+{
+  "name": "hw7",
+  "version": "1.0.0",
+  "description": "basic scss template",
+  "main": "index.js",
+  "scripts": {
+    "build": "node-sass -r --output-style compressed scss/style.scss -o css",
+    "watch": "npm run build && npm run build -- -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DemianMykha/hw7.github.io.git"
+  },
+  "keywords": [
+    "scss",
+    "css"
+  ],
+  "author": "Demian",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DemianMykha/hw7.github.io/issues"
+  },
+  "homepage": "https://github.com/DemianMykha/hw7.github.io#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+
+  }
+}

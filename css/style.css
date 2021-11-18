@@ -1,0 +1,147 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css");
+.nav-scrolled {
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.nav-link {
+  color: black;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 35rem;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(../img/bg-masthead.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero h1 {
+  font-family: "Varela Round", Roboto, "Arial", sans-serif;
+  font-size: 5.5rem;
+  line-height: 5.5rem;
+  letter-spacing: 0.8rem;
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.hero h2 {
+  max-width: 30rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  font-family: Nunito, Roboto, Helvetica Neue, Arial, sans-serif;
+}
+
+.container .about {
+  padding-top: 5rem;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.7) 100%);
+}
+
+.about p {
+  max-width: 30rem;
+  color: lightslategray;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  font-size: 0.6rem;
+  font-family: Nunito, Roboto, Helvetica Neue, Arial, sans-serif;
+}
+
+.about h2 {
+  max-width: 20rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  font-size: 1.25rem;
+  font-family: Nunito, Roboto, Helvetica Neue, Arial, sans-serif;
+}
+
+.btn {
+  background-color: #72b0b3;
+  border: 0;
+}
+
+.btn:hover {
+  background-color: #6b9696;
+}
+
+.paragraf {
+  margin-top: 14rem;
+  font-size: 0.8rem;
+  font-family: Nunito, Roboto, Helvetica Neue, Arial, sans-serif;
+}
+
+.img {
+  width: 700px;
+}
+
+.section {
+  background-color: #000;
+}
+
+.paragraf2and3 {
+  color: #b9b9b9;
+}
+
+.textpt100 {
+  padding-top: 100px;
+}
+
+.herobottom {
+  width: 100%;
+  height: 300px;
+  padding: 15rem 0;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(../img/bg-signup.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.alert-1 {
+  margin-left: 100px;
+}
+
+.gmail-color {
+  color: #6b9696;
+}
+
+.icons-color {
+  background-color: #5a5f64;
+  border: none;
+  color: white;
+  padding: 12px 16px;
+  font-size: 16px;
+}
+
+input-group {
+  margin-left: 350px;
+}
+
+.card-1-2-3 {
+  width: 300px;
+}
+
+.card-line {
+  margin-left: 100px;
+}
+
+.card-icon-blue {
+  color: cadetblue;
+}
+
+.paper-plane {
+  color: white;
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=style.css.map */
